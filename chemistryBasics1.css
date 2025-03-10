@@ -1,0 +1,71 @@
+body{
+  font-family: Arial;
+  padding: 6px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.chem-wrapper{
+  background-color: white;
+  width: 80%;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: all ease 0.3s;
+}
+.chem-question{
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin: 8px 4px;
+}
+.chem-answer{
+  width: 70%;
+  padding: 6px;
+  border: 1px dashed black;
+  color: black;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 4px 2px;
+}
+.chem-btn{
+  width: 80%;
+  padding: 6px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  margin: 4px 2px;
+}
+.chem-verify{
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 4px 2px;
+}
+.chem-verify-good{
+  color: lime;
+}
+.chem-verify-bad{
+  color: red;
+}
+.chem-point{
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 4px 2px;
+}
+.hide{
+  opacity: 0;
+  pointer-events: none;
+}
