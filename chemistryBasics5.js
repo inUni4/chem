@@ -13,7 +13,7 @@ chemQuestion.textContent = "Sustainability and Green Chemistry";
 chemVerify.classList.add("hide");
 chemBtn.addEventListener("click", () => {
   if (chemPoints === 6) {
-    chemQuestion.innerHTML = "Congratulations, you can move on to the next <a href='file:///C:/j.s-basics/chemistryBasics6.html'>level</a>";
+    chemQuestion.innerHTML = "Congratulations, you can move on to the next <a href='https://inuni4.github.io/chem/chemistryBasics6.html'>level</a>";
     chemVerify.classList.add("hide");
     chemAnswer.classList.add("hide");
     chemPoint.classList.add("hide");
