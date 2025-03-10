@@ -13,7 +13,7 @@ chemQuestion.textContent = "Dilemmas and Integrity of science";
 chemVerify.classList.add("hide");
 chemBtn.addEventListener("click", () => {
   if (chemPoints === 3) {
-    chemQuestion.innerHTML = "Congratulations, you can move on to the next <a href='file:///C:/j.s-basics/chemistryBasics5.html'>level</a>";
+    chemQuestion.innerHTML = "Congratulations, you can move on to the next <a href='https://inuni4.github.io/chem/chemistryBasics5.html'>level</a>";
     chemVerify.classList.add("hide");
     chemAnswer.classList.add("hide");
     chemPoint.classList.add("hide");
