@@ -18,48 +18,6 @@ chemSubmit.addEventListener("click", () => {
     chemAnswers.value = "";
     chemQuestions.textContent = chemistryQ[1];
   } else if(chemQuestions.textContent == chemistryQ[1] && chemAnswers.value == chemistryA[1]) {
-    chemVerify.classList.remove("hide");
-    chemVerify.classList.remove("chem-verify-bad");
-    chemVerify.classList.add("chem-verify-good");
-    chemVerify.textContent = "You are correct!";
-    chemAnswers.value = "";
-    chemQuestions.textContent = chemistryQ[2];
-  }  else if(chemQuestions.textContent == chemistryQ[2] && chemAnswers.value == chemistryA[2]) {
-    chemVerify.classList.remove("hide");
-    chemVerify.classList.remove("chem-verify-bad");
-    chemVerify.classList.add("chem-verify-good");
-    chemVerify.textContent = "You are correct!";
-    chemAnswers.value = "";
-    chemQuestions.textContent = chemistryQ[3];
-  }  else if(chemQuestions.textContent == chemistryQ[3] && chemAnswers.value == chemistryA[3]) {
-    chemVerify.classList.remove("hide");
-    chemVerify.classList.remove("chem-verify-bad");
-    chemVerify.classList.add("chem-verify-good");
-    chemVerify.textContent = "You are correct!";
-    chemAnswers.value = "";
-    chemQuestions.textContent = chemistryQ[4];
-  }  else if(chemQuestions.textContent == chemistryQ[4] && chemAnswers.value == chemistryA[4]) {
-    chemVerify.classList.remove("hide");
-    chemVerify.classList.remove("chem-verify-bad");
-    chemVerify.classList.add("chem-verify-good");
-    chemVerify.textContent = "You are correct!";
-    chemAnswers.value = "";
-    chemQuestions.textContent = chemistryQ[5];
-  }  else if(chemQuestions.textContent == chemistryQ[5] && chemAnswers.value == chemistryA[5]) {
-    chemVerify.classList.remove("hide");
-    chemVerify.classList.remove("chem-verify-bad");
-    chemVerify.classList.add("chem-verify-good");
-    chemVerify.textContent = "You are correct!";
-    chemAnswers.value = "";
-    chemQuestions.textContent = chemistryQ[6];
-  }  else if(chemQuestions.textContent == chemistryQ[6] && chemAnswers.value == chemistryA[6]) {
-    chemVerify.classList.remove("hide");
-    chemVerify.classList.remove("chem-verify-bad");
-    chemVerify.classList.add("chem-verify-good");
-    chemVerify.textContent = "You are correct!";
-    chemAnswers.value = "";
-    chemQuestions.textContent = chemistryQ[7];
-  } else if(chemQuestions.textContent == chemistryQ[7] && chemAnswers.value == chemistryA[7]) {
     chemVerify.classList.add("hide");
     chemQuestions.innerHTML = "Congratulations, you are done for the day.";
     chemAnswers.classList.add("hide");
