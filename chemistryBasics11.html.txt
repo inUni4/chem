@@ -14,6 +14,6 @@
       <button class="chem-submit">submit</button>
       <p class="chem-verify"></p>
     </div>
-    <script src="chemistryBasics12.js"></script>
+    <script src="chemistryBasics11.js"></script>
   </body>
 </html>
